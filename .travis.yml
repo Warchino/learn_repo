@@ -5,4 +5,4 @@ cache: pip
 install:
   - pip install -r requirements.txt
 script:
-  - pylint --output-format=parseable $ProjectFileDir$/core
+  - pylint --output-format=parseable core
